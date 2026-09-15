@@ -180,13 +180,9 @@ query → embed → similarity_search → top_k_chunks → LLM → grounded_answ
 
 ## 📊 GitHub Stats
 
-<!-- These two point at the SHARED PUBLIC instance, same as your profile does today, so this
-     README works the moment you push it. Once you self-host (SETUP-CHECKLIST.md step 1),
-     swap both 'github-readme-stats.vercel.app' for your own domain to stop the
-     intermittent "API rate limit exceeded". Everything else about them is already correct. -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ramnivasattanti2008-cloud&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramnivasattanti2008-cloud&layout=compact&langs_count=8&hide_border=true&card_width=320&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F" width="48%" />
+  <img src="https://github-readme-stats-one-zeta-vb0srux6rh.vercel.app/api?username=ramnivasattanti2008-cloud&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F" width="48%" />
+  <img src="https://github-readme-stats-one-zeta-vb0srux6rh.vercel.app/api/top-langs/?username=ramnivasattanti2008-cloud&layout=compact&langs_count=8&hide_border=true&card_width=320&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F" width="48%" />
 </p>
 
 <p align="center">
