@@ -197,8 +197,6 @@ query → embed → similarity_search → top_k_chunks → LLM → grounded_answ
 <!-- Activity Graph -->
 ![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ramnivasattanti2008-cloud&bg_color=0A101F&color=22D3EE&line=A78BFA&point=10B981&area=true&hide_border=true)
 
-<!-- SNAKE:BEGIN  (deploy script removes this line once the Action is green)
-
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/output/github-snake-dark.svg" />
@@ -206,8 +204,6 @@ query → embed → similarity_search → top_k_chunks → LLM → grounded_answ
   <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/output/github-snake.svg" />
 </picture>
 </div>
-
-SNAKE:END -->
 
 ---
 
