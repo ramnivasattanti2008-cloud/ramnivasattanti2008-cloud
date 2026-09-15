@@ -1,39 +1,3 @@
-<!--
-  ramnivasattanti2008-cloud profile README
-  MERGED: your existing profile, with the animated banner added and the stats
-  cards moved off the public instance onto your own.
-
-  Changed vs. what is live on your profile right now:
-    1. banner block added at the top. Needs FOUR files in the repo root:
-       dark.svg, light.svg, dark-mobile.svg, light-mobile.svg. The wide pair is the
-       1180x610 terminal; the mobile pair is a taller cut that stays readable on a
-       phone, picked up by the max-width:600px sources. First matching source wins,
-       so the order below matters.
-    2. stats + top-langs still use the shared public instance, so this file works
-       immediately on push. Self-hosting is an upgrade, not a prerequisite - swap the
-       2 domains once your own instance is deployed.
-    3. hide_rank=true and include_all_commits=true added to the stats card
-    4. cards re-themed from `radical` (indigo/amber) to the banner palette
-       #A78BFA / #22D3EE / #10B981 on #0A101F, so the page reads as one thing
-    5. contribution snake block added, hidden behind SNAKE:BEGIN/END markers until the
-       Action runs green
-    6. the Let's Connect badges re-themed to the palette too, and LinkedIn moved from
-       0077B5 to 0A66C2 - shields.io only renders the LinkedIn glyph on that exact
-       brand blue, so on 0077B5 your badge was showing as text with no logo. The
-       self-referencing GitHub badge is dropped (it is circular on your own profile);
-       Live Demo and AI Portfolio carry the outbound links instead.
-  Everything else is your original content, untouched.
--->
-
-<div align="center">
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/main/dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/main/light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/main/dark.svg">
-  <img alt="Attanti Ramnivas — AI/ML Developer" src="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/main/light.svg">
-</picture>
-</div>
-
 # 👋 Hey, I'm Attanti Ramnivas
 
 <!-- Dynamic status -->
@@ -180,34 +144,18 @@ query → embed → similarity_search → top_k_chunks → LLM → grounded_answ
 
 ## 📊 GitHub Stats
 
-<!-- These two point at the SHARED PUBLIC instance, same as your profile does today, so this
-     README works the moment you push it. Once you self-host (SETUP-CHECKLIST.md step 1),
-     swap both 'github-readme-stats.vercel.app' for your own domain to stop the
-     intermittent "API rate limit exceeded". Everything else about them is already correct. -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ramnivasattanti2008-cloud&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramnivasattanti2008-cloud&layout=compact&langs_count=8&hide_border=true&card_width=320&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ramnivasattanti2008-cloud&theme=radical&show_icons=true&count_private=true&hide_border=true&ring_color=6366F1&fire_color=F59E0B&title_color=6366F1&text_color=E2E8F0" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramnivasattanti2008-cloud&layout=compact&theme=radical&hide_border=true&card_width=320&title_color=6366F1&text_color=E2E8F0" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ramnivasattanti2008-cloud&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE" width="48%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=ramnivasattanti2008-cloud&theme=onedark&no-frame=true&column=3&margin-w=15&margin-h=15&title=Commits,PRs,Issues,Stars,Repositories,Followers" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=ramnivasattanti2008-cloud&theme=radical&hide_border=true&stroke=6366F1&fire=F59E0B&currStreakNum=F59E0B&sideNums=F59E0B&currStreakLabel=F59E0B&sideLabels=F59E0B&dates=6366F1" width="48%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ramnivasattanti2008-cloud&theme=radical&no-frame=true&column=3&margin-w=15&margin-h=15&title=Commits,PRs,Issues,Stars,Repositories,Followers" width="48%" />
 </p>
 
 <!-- Activity Graph -->
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ramnivasattanti2008-cloud&bg_color=0A101F&color=22D3EE&line=A78BFA&point=10B981&area=true&hide_border=true)
-
-<!-- SNAKE:BEGIN  (deploy script removes this line once the Action is green)
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/ramnivasattanti2008-cloud/ramnivasattanti2008-cloud/output/github-snake.svg" />
-</picture>
-</div>
-
-SNAKE:END -->
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ramnivasattanti2008-cloud&theme=radical&bg_color=0F172A&color=6366F1&line=6366F1&point=22D3EE&area=true&hide_border=false)
 
 ---
 
@@ -243,19 +191,19 @@ SNAKE:END -->
 
 <p align="center">
   <a href="https://linkedin.com/in/attanti-ramnivas">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
+  <a href="https://github.com/ramnivasattanti2008-cloud">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
   <a href="mailto:ramnivasattanti2008@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
   <a href="https://vojas-frontend.vercel.app">
-    <img src="https://img.shields.io/badge/Live%20Demo-0A101F?style=for-the-badge&logo=vercel&logoColor=22D3EE&labelColor=0A101F" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/Live%20Demo-4285F4?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
   <a href="https://github.com/ramnivasattanti2008-cloud/ai-portfolio-projects">
-    <img src="https://img.shields.io/badge/AI%20Portfolio-0A101F?style=for-the-badge&logo=github&logoColor=A78BFA&labelColor=0A101F" alt="AI Portfolio" />
+    <img src="https://img.shields.io/badge/AI%20Portfolio-9333EA?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
